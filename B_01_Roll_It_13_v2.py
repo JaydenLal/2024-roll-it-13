@@ -1,7 +1,7 @@
 import random
 
 
-# checks users enter yes (y) or no (n)
+# checks users enter yes or no (y/n)
 def yes_no(question):
     while True:
         response = input(question).lower()
@@ -75,8 +75,7 @@ def two_rolls(who):
     return first_points, double_score
 
 
-# Checks that users enter an integer
-# that is more than 13
+# Checks that users enter an integer that is more than 13
 def int_check(question):
     while True:
         error = "Please enter an integer that is 13 or more."
