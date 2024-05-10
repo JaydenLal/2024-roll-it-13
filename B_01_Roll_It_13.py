@@ -1,4 +1,4 @@
-# checks users enter yes (y) or no (n)
+# checks users enter yes or no (y/n)
 def yes_no(question):
     while True:
         response = input(question).lower()
@@ -43,8 +43,7 @@ dice is a double (eg: both dice show a three), then your score
     ''')
 
 
-# Checks that users enter an integer
-# that is more than 13
+# Checks that users enter an integer that is more than 13
 def int_check():
     while True:
         error = "Please enter an integer that is 13 or more."
